@@ -8,6 +8,7 @@ class Practitioner extends Component {
 
   componentDidMount() {
     getPractitioners().then((res) => {
+      console.log("HERE", res);
       this.setState({ practitioners: this.flattenPractitionerObj(res) });
     });
   }

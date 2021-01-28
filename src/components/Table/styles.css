@@ -1,0 +1,23 @@
+.filterBtn {
+	background-color: black;
+	color: white;
+	height: 42px;
+	width: 90px;	
+}
+
+.nameFilter {
+	height: 42px;
+	width: 180px;
+}
+
+.filterMenu {
+	
+}
+
+.filterOptions {
+	display: inline-block;
+	float: left;
+}
+
+.filter {
+}
