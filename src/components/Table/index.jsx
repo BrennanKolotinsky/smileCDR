@@ -103,7 +103,7 @@ class Table extends Component {
 		const { patients, reqTime, dateOfBirthList } = this.state;
 		return (
 			<div>
-				<h2>Results as of: {reqTime}</h2>
+				<h2>PATIENT TABLE (Results as of: {reqTime})</h2>
 
 				<div className='filter'>
 					<input id="email" placeholder="John" onChange={this.changeName} className="nameFilter filterOptions"></input>
